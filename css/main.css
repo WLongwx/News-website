@@ -1,0 +1,135 @@
+*{
+    transition: 200ms;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.navbar-brand{
+    background-image: url(../img/logo.jpg);
+    width: 50px;
+    background-size: 75%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.side-bar .list-group-item{
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.side-bar .list-group-item:hover{
+    background: #dcf5f1;
+}
+
+.side-bar .list-group-item.active{
+    background: #3fb382;
+}
+
+.news-list-item{
+    padding: 10px;
+    border-bottom: #ccc solid 2px;
+}
+
+.news-list-item:first-child{
+    padding-top: 0px;
+}
+
+.news-list-item:last-child{
+    border: 0;
+}
+
+.news-list-item .title{
+    display: block;
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+
+.news-list-item .title:hover{
+    color: #337ab7;
+}
+
+.news-list-item .info{
+    color: #888;
+}
+
+.avtar{
+    display: inline-block;
+}
+
+.avtar img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.title-center{
+    padding-top: 30px;
+}
+
+.side-bar-card{
+    background: rgba(0, 0, 0, 0.06);
+    margin-top: 15px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.side-bar-card.flag{
+    padding: 20px 0;
+}
+
+.side-bar-card .text-lg{
+    font-size: 140%;
+}
+
+.side-bar-card .card-title,
+.side-bar-card .card-body .item{
+    padding: 10px 15px;
+}
+
+.side-bar-card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.side-bar-card .card-body .item:hover{
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.card-body .list .title{
+    padding-bottom: 6px;
+}
+
+.card-body .list .desc{
+    color: #999;
+}
+
+.footer{
+    margin-top: 10px;
+    padding: 15px 0;
+    background: #eee;
+    text-align: center;
+    color: #999;
+}
+
+.footer a{
+    color: #999;
+}
+
+.footer a:hover{
+    color: rgba(0,0,0,.1);
+}
